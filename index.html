@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Merienda&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Login/SignUp page</title>
+</head>
+
+<body>
+    <main>
+                <div class="main-container">
+        <section class="top-header">
+            <div class="logo">
+                <img src="https://educase-g4k27hup8-mdsa97087.vercel.app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg" alt="">
+            </div>
+            <div class="head_cont">
+                SOME RANDOM TEXT,SOME RANDOM <br>
+                TEXT, RANDOM TEXT,SOME RANDOM TEXT
+            </div>
+        </section>
+        <section class="middle">
+            <div class="middle_top">
+                <div class="middle_top_left" id="login" onclick="left()">
+                    Login
+                </div>
+                <div class="middle_top_right" id="signup" onclick="right()">
+                    Signup
+                </div>
+            </div>
+            <div class="middle_bottom">
+                <div class="middle_bottom_1">
+                    <div id="login_page">
+                        <form>
+                            <input type="email" name="email" placeholder="Email Address" id="email" required>
+                            <input type="password" name="password" placeholder="Password" id="pass" required>
+                            <!-- <input type="submit" value="Login" id="submit"> -->
+                            <button id="submit">Login</button>
+                        </form>
+                    </div>
+                    <div id="signup_page">
+                        <form>
+                            <input type="email" name="email" placeholder="Email Address" id="email" required>
+                            <input type="password" name="password" placeholder="Password" id="pass" required>
+                            <input type="password" name="password" placeholder="Confirm Password" id="pass" required>
+                            <!-- <input type="submit" value="Register" id="submit"> -->
+                            <button id="submit">SignUp</button>
+
+                        </form>
+                    </div>
+                </div>
+                <div class="middle_bottom_2">
+                    forgot password?
+                </div>
+                <div class="middle_bottom_3">
+                    or login with
+                </div>
+                <div class="middle_bottom_4">
+                    <a href=""><img src="google.png" alt="" class="login_icon"></a>
+                    <a href=""><img src="twitter.png" alt="" class="login_icon"></a>
+                    <a href=""><img src="facebook (1).png" alt="" class="login_icon"></a>
+                   
+                </div>
+                <div class="middle_bottom_5">
+                    <span class="acc">don't have an account?</span>
+                    <span>create new account!</span>
+                </div>
+                <div class="middle_bottom_6">
+                    <span>by signing up you agree with our</span>
+                    <span class="pink">terms & conditions</span>
+                </div>
+            </div>
+        </section>
+    </div>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
